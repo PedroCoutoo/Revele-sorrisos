@@ -1,11 +1,12 @@
 @charset "utf8";
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
-@import url('https://fonts.googleapis.com/css2? família = Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Poppins:wght@300&display=swap');
 :root{
-    --font1: verdana, geneva,tahoma,sans-serif;
-    --font2: 'Passion One', cursiva;
-    --font3:  'Sriracha', cursiva;
+    font-family: 'Eczar', serif;
+    font-family: 'Poppins', sans-serif;
+    
 }
+
+
 
 *{
     margin: 0px;
@@ -17,7 +18,7 @@ html,body{
     font-family: var(--font1);
 }
 header{
-    background-color:#f9eac391 ;
+    background-color:#f9eac38a ;
     color: white;
     text-align: center;
 
@@ -33,12 +34,91 @@ header>p{
     padding-bottom: 50px;
 
 }
+header>a{
+    text-decoration: none;
+}
+
+.normal{
+    font-size:25px;
+}
+.cabecalho-link{
+    
+    display: flex;
+    gap: 3rem;
+    font-weight:300 ;
+    cursor: pointer;
+}
+.cabecalho-link a{
+
+    color:white;
+    font-size: 12px;
+    
+}
+.cabecalho-link a:hover{
+    color: #f9eac3;
+    transition: 0.3s all;
+}
+.cabecalho-link li{
+    border: 1px solid #b0cddf;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+    width: 150px;
+    
+
+}
+
+
+.cabecalho-link li:hover{
+    background-color: #b0cddf;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.logo i {
+    height:40px;
+    width: 40px;
+    background: transparent;
+    border:1px solid #2ecc71 ;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+button{
+    color:#b0cddf;
+    background: transparent;
+    border: 1px solid #b0cddf;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+
+}
+button:hover{
+    background-color: #b0cddf;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
 a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
 
 }
+
+
+/* Remover o ponto do marcador apenas para links com a classe "sem-ponto" */
+.sem-ponto::marker {
+    content: "";
+  }  
+
+  
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -50,15 +130,18 @@ section{
 }
 section>p{
     padding-bottom: 2em;
+    font-family: 'eczar, serife';
+
 }
 
 a:hover{
     text-decoration: underline;
 }
 section.normal{
-    background-color: white;
+    background-color:rgb(255, 255, 255);
     color: black;
 }
+
 section.imagem{
     background-color: rgba(2, 2, 2, 0.521);
     color:white;
@@ -73,12 +156,12 @@ section.imagem>p{
     padding: 5px;
     text-shadow: 2px 2px black;
 }
-section#img01 { background-image:url('imagens/WhatsApp\ Image\ 2023-08-05\ at\ 15.54.45.jpeg');
+section#img01 { background-image:url('imagens/TAMIRIS.jpg');
     background-position: left center;
    
  
 }
-section#img02{ background-image: url('imagens/WhatsApp\ Image\ 2023-08-05\ at\ 15.55.03.jpeg');
+section#img02{ background-image: url('imagens/TAMIRIS\ E\ DIOGO.jpg');
     background-position: right center;
    
     
