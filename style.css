@@ -1,5 +1,7 @@
 @charset "utf8";
 @import url('https://fonts.googleapis.com/css2?family=Eczar&family=Poppins:wght@300&display=swap');
+
+
 :root{
     font-family: 'Eczar', serif;
     font-family: 'Poppins', sans-serif;
@@ -41,6 +43,8 @@ header>a{
 .normal{
     font-size:25px;
 }
+
+ 
 .cabecalho-link{
     
     display: flex;
