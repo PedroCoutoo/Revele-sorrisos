@@ -42,6 +42,7 @@ header>a{
 
 .normal{
     font-size:25px;
+    text-decoration: dotted;
 }
 
  
@@ -171,9 +172,41 @@ section#img02{ background-image: url('imagens/TAMIRIS\ E\ DIOGO.jpg');
     
 
 }
-footer{
-    background-color: black;
+  .content {
+    padding: 20px;
     text-align: center;
-    color: white;
-    padding: 10px;
-}
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-info, .social-links {
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .social-links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .footer-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
